@@ -26,6 +26,11 @@
     text-decoration: none;
     font-family: 'Noto Sans JP', sans-serif;
 }
+@media(max-width:600px){
+    .navbar ul li a{
+        font-size: 0.8rem;
+    }
+}
 .navbar ul li a:hover{
     background-color: goldenrod;
 }
